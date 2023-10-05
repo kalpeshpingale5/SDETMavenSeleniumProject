@@ -20,12 +20,4 @@ public class MultipleTestCases {
         driver.manage().window().maximize();
         driver.close();
     }
-    @Test
-    public void testCase3() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\vivek\\Downloads\\chromedriver-win64\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.facebook.com/");
-        driver.manage().window().maximize();
-        //driver.close();
-    }
 }
